@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box; 
+}
+
+header{
+
+    border: solid 1px;
+    display: flex;
+    justify-content: space-between; 
+
+    background: rgb(13, 209, 144);
+    align-items: center;
+
+    padding: 10px;
+
+    position: fixed; 
+
+    top: 0; 
+
+    width: 100%;
+}
+
+#logo{
+    display: flex;
+    height: 120px;
+    align-items: center;
+
+    text-decoration: none;
+    color: white;
+}
+
+#empresa{
+    font-size: 40px;
+}
+
+nav .barra{
+    padding-right: 45px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+
+    font-weight: bold;
+}
+
+#contenedor{
+    margin-top: 150px; /*margen al contenedor*/
+}
+
+#titulo{
+    text-align: center;
+}
+
+nav .barra:hover{
+    margin-top: 50%;
+    text-shadow: 
+    0 0 5px rgba(0, 178, 255, 1),
+    0 0 10px rgba(0, 178, 255, 1),
+    0 0 20px rgba(0, 178, 255, 1),
+    0 0 40px rgba(38, 104, 127, 1),
+    0 0 80px rgba(38, 104, 127, 1),
+    0 0 90px rgba(38, 104, 127, 1),
+    0 0 100px rgba(38, 104, 127, 1),
+    0 0 140px rgba(38, 104, 127, 1),
+    0 0 180px rgba(38, 104, 127, 1);
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
